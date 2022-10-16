@@ -1,0 +1,51 @@
+.ewk_cont_banner{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/tec.jpg");
+}
+
+.ewk_sobra{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin: auto;
+}
+
+.ewk_sobra hr{
+    border-top: 1px solid white;
+}
+
+.ewk_sobra h3{
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+.ewk_cont_banner_link{
+    margin: 15px;
+    position: relative;
+}
+
+.ewk_cont_banner_link a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.footer1{
+    text-align: center;
+}
+

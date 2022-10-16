@@ -1,0 +1,51 @@
+<main class="container-flex">
+    
+            <h2>ALINF informatica</h2>
+    
+            <div class="ewk_cont_banner">
+    
+            <div class="ewk_sobra">
+
+              <h1>Llena tus datos y nosotros te contactamos!</h1>
+
+              {{ titulo }}
+    
+    
+            <hr/>
+    
+            <div class="ewk_cont_banner_link">
+
+
+
+<div class="container row ">
+    <form action="./contact" method="post"> 
+      <div class="mb-3 row">
+        <label for="nombre" class="col-sm-2 col-form-label">Nombre: </label>
+      <div class="col-sm-10">
+        <input type="text"  class="form-control" id="nombre" name="nombre" placeholder="Ingrese su Nombre" >
+      </div>
+      </div>
+      <div class="mb-3 row">
+        <label for="email" class="col-sm-2 col-form-label">Email: </label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" name="email" id="email" placeholder="Ingrese su email"> 
+      </div>
+      </div>
+      </div>
+      <div class="mb-3 p-2 text-center">
+        <input type="submit" class="btn btn-success w-50 " value="Me suscribo">
+       </div>  
+         
+       <div class="text-center">
+        <h2 class="text-danger">
+            {{ validacion }}
+        </h2>
+       </div>
+    
+            </div>
+    
+            </div>
+    
+        </main>
+    
+        </div>
